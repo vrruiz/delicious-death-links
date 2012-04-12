@@ -1,0 +1,18 @@
+Delicious death link
+====================
+2012 Víctor R. Ruiz <rvr@linotipo.es>
+
+This scripts generates a death link rates per year, using delicious backup
+file.
+
+check.py 
+--------
+This file parses delicious' export file (HTML) and checks the status code of
+each link. It generates another file, delicious-status.txt To run delicious.py,
+save the export file as delicious.html and put it in the same directory.
+
+stats.py
+--------
+Parses delicious-status.txt to generate death link rates per year.
+
+
